@@ -1,1 +1,3 @@
-console.log('hello world');
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
