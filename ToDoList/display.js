@@ -1,3 +1,4 @@
 function displayDate() {
-    document.getElementById("demo").innerHTML = Date();
+    const date  = new Date();
+    alert(date.getHours());
 }
