@@ -1,5 +1,7 @@
 const add = (a, b) => {
     return a + b;
 }
-const sum = add(1,2);
-console.log(sum);
+
+//module.exports lets you export functionality
+//it can be called using require() in another file
+module.exports = add;

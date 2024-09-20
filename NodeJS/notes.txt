@@ -61,3 +61,18 @@ Modules:
 
 Local Modules: Modes we create in our application
     - Common JS: standard for how a module should be structured and shared
+    - use require() like #include in C
+    - All modules have their own scope - you can have same variables in both
+    - every function has a private scope so you can repeat variable and function names with
+      no problem
+
+    Before running a module, NodeJS wraps it with a function
+    (function(exports, require, module, __filename, --dirname) {
+        const superhero = "superman";
+        console.log(superhero, message);
+    })
+    - local variables per module
+    - __dirname: path to current dir
+    - __filename: path to current file
+    - require: function used to import a module by path
+    - module: reference to current module
