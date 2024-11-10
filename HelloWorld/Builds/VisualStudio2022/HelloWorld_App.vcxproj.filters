@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HelloWorld\Source">
+      <UniqueIdentifier>{2871A501-FC02-59F8-073A-E81F04E3463F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloWorld">
+      <UniqueIdentifier>{75F51951-F2D8-4FF2-0DBF-4E68D1A58E5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCE Library Code">
+      <UniqueIdentifier>{7ED5A90E-41AF-A1EF-659B-37CEEAB9BA61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>HelloWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MainComponent.cpp">
+      <Filter>HelloWorld\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MainComponent.h">
+      <Filter>HelloWorld\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\resources.rc">
+      <Filter>JUCE Library Code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

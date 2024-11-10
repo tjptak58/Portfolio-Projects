@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="RM7eob" name="HelloWorld" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="pA8099" name="HelloWorld">
+    <GROUP id="{9A6FBC6E-A91D-3B83-849A-3746AC904E35}" name="Source">
+      <FILE id="s58xsf" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="D3jWGA" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="pseXc9" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld"/>
+      </CONFIGURATIONS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
